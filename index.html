@@ -15,7 +15,7 @@
 <body>
   <h1>Atari Source Image Generator</h1>
   
-  <input id="fileInput" type="file" accept=".bas,.lst" onchange="render(this)"/>
+  <input id="fileInput" type="file" accept=".bas,.lst,.list" onchange="render(this)"/>
   <button id="save" style="display:none" onclick="save()">Save Image</button>
   <input id="roundUp" type="checkbox" checked="true" onchange="updateImage()"/><label for="roundUp">Round up to 80, 120, or 256 chars</label>
   <hr />
